@@ -1,0 +1,145 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Heading Part */
+
+.heading-part {
+  color: hsl(234, 12%, 34%);
+}
+
+.heading {
+  font-weight: 200;
+  font-size: 1.9rem;
+}
+
+.subheading {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 1.9rem;
+}
+
+.heading-p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 440px;
+
+}
+
+/* Bottom Part */
+
+.four-boxes {
+  background-color: white;
+  width: 300px;
+  margin: 0 auto 25px;
+  padding: 25px;
+  line-height: 2;
+}
+
+.four-boxes h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: hsl(234, 12%, 34%);
+}
+
+.four-boxes p {
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.images {
+  width: 20%;
+  margin-top: 10px;
+}
+
+.Supervisor {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  float: left;
+  margin-left: 80px;
+  margin-top: 102.5px;
+}
+
+.Team-Builder {
+  border-top: 4px solid hsl(0, 78%, 62%);
+
+}
+
+.Karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin-bottom: 0;
+
+}
+
+.Calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  float: right;
+  margin-right: 80px;
+  margin-top: 102.5px;
+
+}
+
+@media (max-width: 1199px) {
+
+  /* Bottom Part Tablet */
+
+  .four-boxes {
+    margin-bottom: 15px;
+  }
+
+  .Supervisor {
+    margin-left: 0px;
+  }
+
+  .Calculator {
+    margin-right: 0;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  /* Heading Part Phone */
+
+  .heading {
+    font-size: 1.6rem;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .heading-p {
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    width: 300px;
+  }
+
+  /* Bottom Part Phone */
+
+  .four-boxes {
+    margin: 0 auto 25px;
+  }
+
+  .Supervisor {
+    float: none;
+  }
+
+  .Calculator {
+    float: none;
+  }
+
+}
